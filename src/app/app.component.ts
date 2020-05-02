@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
     <h1>
       Welcome to {{ title }}!
     </h1>
+    <app-list-manager></app-list-manager>
   `,
   styleUrls: ['./app.component.css']
 })
