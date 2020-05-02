@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "@angular-devkit/architect": ">=0.800.0",
+    "@angular-devkit/core": ">=8.0.0",
+    "@angular-devkit/schematics": ">=8.0.0",
     "@angular/animations": "9.1.0",
     "@angular/common": "^9.1.0",
     "@angular/compiler": "^9.1.0",
@@ -11,6 +14,7 @@
     "@angular/platform-browser": "^9.1.0",
     "@angular/platform-browser-dynamic": "^9.1.0",
     "@angular/router": "^9.1.0",
+    "angular-cli-ghpages": "^0.6.2",
     "core-js": "^3.6.4",
     "rxjs": "^6.5.4",
     "tslib": "^1.10.0",
