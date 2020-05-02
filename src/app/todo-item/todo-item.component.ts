@@ -4,9 +4,11 @@ import { TodoItem } from '../interfaces/todo-item';
 @Component({
   selector: 'app-todo-item',
   template: `
-    {{ item.title }}
+    <div class="todo-item">
+  {{ item.title }}
+</div>
   `,
-  styleUrls: ['./todo-item.component.css']
+  styleUrls: ['./todo-item.component.scss']
 })
 export class TodoItemComponent implements OnInit {
   @Input() item: TodoItem;
